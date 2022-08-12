@@ -1,0 +1,106 @@
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    --pink:rgb(241, 108, 228);
+    --black: rgb(52, 52, 52);
+}
+body {
+    background: url('./Anime-Background-For-Desktop.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#btnDiv {
+    display: flex;
+    justify-content: center;
+  
+}
+
+
+.btn {
+    font-family: 'Ninja Naruto', sans-serif;
+    font-size: 2rem;
+    place-content: middle;
+    background: none;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    border: none; 
+    width: 20rem;
+    height: 6rem;
+    transition: .5s ease;
+    
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: var(--pink);
+}
+
+#topBar {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--black);
+    height: 4.5rem;
+}
+
+#logo {
+    font-family: 'Ninja Naruto', sans-serif;
+    font-size: 4rem;
+    color: var(--pink); 
+    padding-top: .3rem;
+    padding-left: .6rem;
+}
+
+.Quote {
+    font-style: italic;
+    font-size: 25px;
+    color: white;
+}
+
+h3 {
+    font-family: 'Ninja Naruto', sans-serif;
+    color: var(--pink);
+    font-size: 30px;
+    padding-top: 3rem;
+}
+
+h2 {
+    font-family: 'Ninja Naruto', sans-serif;
+    color: var(--pink);
+    font-size: 35px;
+    padding-top: 3rem;
+}
+
+h4 {
+    font-family: 'Ninja Naruto', sans-serif;
+    color: var(--pink)
+    font-size: 35px;
+    padding-top: 3rem;
+}
+
+.btn2 {
+    font-family: 'Ninja Naruto', sans-serif;
+    background-color: var(--black);   
+    border: none;
+    color: white;
+    padding-top: 1.5rem;
+    font-size: 1.5rem;
+    padding-right: 1rem;
+    transition: .5s ease;
+}
+
+.btn2:hover {
+    cursor: pointer;
+    color: var(--pink);
+
+}
